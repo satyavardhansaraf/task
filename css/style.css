@@ -1,0 +1,171 @@
+/* CSS */
+
+@font-face {
+    font-family: tahoma;
+    src: url(../fonts/tahoma.ttf);
+}
+@font-face {
+    font-family: arialroundedmtbold;
+    src: url(../fonts/arial-rounded-mt-bold.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f7f7f7;
+	font-family: tahoma !important;
+	font-size: 12px !important;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.wrapper {
+	width: 100%;
+}
+.bg-grey {
+	width: 100%;
+	background: #2e2e2e;
+}
+.padding-left-no {
+	padding-left: 0 !important;
+}
+.top-nav {
+	font-family: tahoma;
+	width: 36%;
+}
+.top-nav-bar li a {
+    color: #ffffff;
+    font-size: 11px;
+    margin: 0 10px;
+    padding: 10px 0 !important;
+}
+.top-nav-bar li a:hover {
+	background-color: transparent !important;
+}
+.serach-input {
+	height: 30px !important;
+	padding: 0 12px !important;
+	position: relative;
+	border-radius: 3px !important;
+}
+.input-group-btn {
+    position: absolute !important;
+    right: 5px;
+    top: 5px;
+    z-index: 2;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.content {
+	position: relative;
+	padding-bottom: 50px;
+    box-shadow: 3px 3px 10px -3px #000000;
+    -moz-box-shadow: 3px 3px 10px -3px #000000;
+    -webkit-box-shadow: 3px 3px 10px -3px #000000;
+}
+/*.shadow {
+    z-index: 5;
+}*/
+.main-nav {
+    background-color: transparent !important;
+    border: medium none !important;
+    font-family: arialroundedmtbold !important;
+}
+.main-nav a {
+	color: #1da7dd !important;
+	font-size: 18px !important;
+	padding: 10px 15px !important;
+}
+.main-nav .navbar-nav > .active > a, .main-nav .navbar-nav > .active > a:hover, .main-nav .navbar-nav > .active > a:focus {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+    border-radius: 0 0 5px 5px;
+}
+.main-title {
+	font-size: 32px;
+	font-family: arialroundedmtbold !important;
+	color: #404040;
+}
+.sub-title {
+	font-size: 12px;
+	color: #1da7dd;
+	font-weight: bold;
+}
+.sidebar {
+	background: #959595; /* Old browsers */
+	background: -moz-linear-gradient(top, #959595 0%, #959595 31%, #919191 65%, #8c8c8c 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #959595 0%,#959595 31%,#919191 65%,#8c8c8c 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #959595 0%,#959595 31%,#919191 65%,#8c8c8c 99%);
+	border-radius: 2px;
+    border-top: 3px solid #000;
+    padding: 0 20px 20px;
+    color: #ffffff;
+}
+.sidebar h2 {
+	font-size: 18px;
+	color: #404040;
+	font-weight: bold;
+	margin: 20px 0 15px;
+}
+.sidebar-border {
+	border-top: 1px solid #7e7e7e;
+	border-bottom: 1px solid #b1b1b1;
+}
+.footer {
+	background-color: #dddddd;
+	color: #494949;
+	padding: 30px;
+	height: 150px;
+}
+.footer-nav {
+	float: right;
+}
+.footer-nav li {
+	float: left;
+	list-style: none;
+	padding: 0 10px;
+	background: url("../images/footer-nav-border.png") no-repeat right center;
+}
+.footer-nav li a {
+	color: #494949;
+}
+.footer-nav li:last-child {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+.ui-accordion .ui-accordion-header {
+    background: #323232;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, .ui-state-active a{
+	color:#ffffff !important;
+}
+
+
+@media screen and (max-width: 768px) {
+.top-nav {
+	font-family: tahoma;
+	width: 100%;
+}
+.input-group-btn {
+    right: 20px;
+    top: 8px;
+}
+.footer {
+	padding: 20px 0;
+	height: auto;
+}
+.footer-nav {
+	float: left;
+	padding-left: 0;
+}
+.footer-nav li {
+	float: none;
+	background: none;
+	padding-left: 0;
+	margin-bottom: 5px;
+}
+}
